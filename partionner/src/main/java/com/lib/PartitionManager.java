@@ -11,7 +11,7 @@ import static java.util.stream.Collectors.groupingBy;
 /**
  * @author AKOURTIM Ahmed on 2020-10-10
  */
-public class PartionnerManager {
+public class PartitionManager {
 
     public static List<List<Integer>> partition(List<Integer> list,int partionSize) throws Exception{
 

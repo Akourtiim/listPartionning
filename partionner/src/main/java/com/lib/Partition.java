@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @author AKOURTIM Ahmed on 2020-10-10
  */
-public class Partionner {
+public class Partition {
 
     public static void main(String[] args){
 
@@ -22,7 +22,7 @@ public class Partionner {
                                           .forEach(s-> mylist.add(Integer.valueOf(s)));
 
 
-            PartionnerManager.partition(mylist,size);
+            PartitionManager.partition(mylist,size);
         }catch (IndexOutOfBoundsException ioobe){
 
             System.out.println("please set a valid args to run the jar :");

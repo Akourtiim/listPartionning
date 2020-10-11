@@ -18,9 +18,14 @@
     </dependencies>
 
     <build>
-        <finalName>partionner</finalName>
+        <finalName>partition</finalName>
         <plugins>
 
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.0</version>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-eclipse-plugin</artifactId>
@@ -43,7 +48,6 @@
 
             <!-- Make this jar executable -->
 
-            <!-- Copy project dependency -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -58,7 +62,7 @@
                             <archive>
                                 <manifest>
                                     <addClasspath>true</addClasspath>
-                                    <mainClass>com.lib.Partionner</mainClass>
+                                    <mainClass>com.lib.Partition</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
