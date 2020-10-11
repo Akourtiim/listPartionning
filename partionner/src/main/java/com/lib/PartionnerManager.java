@@ -20,7 +20,7 @@ public class PartionnerManager {
             }
 
             if(list.size()<partionSize){
-                throw new Exception("Size of partition must be not be greater the list size");
+                throw new IndexOutOfBoundsException("Size of partition must be not be greater the list size");
             }
 
             if(list.size()==partionSize){
@@ -37,6 +37,7 @@ public class PartionnerManager {
 
 
         ArrayList<List<Integer>> finalList = new ArrayList<>(partions);
+        System.out.println(finalList);
 
 
        return finalList;
