@@ -4,7 +4,7 @@ This project can be used a third library in other projects
 once this project jar was add into your project 
 you can call the static method inside PartitionManager :
 
-PartitionManager(listOfints,size of partition);
+PartitionManager.partition(listOfints,size of partition);
 
 you can also run this jar using java CLI 
 after building the project with tests runing using : mvn clean install 
