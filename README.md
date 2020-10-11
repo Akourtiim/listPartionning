@@ -1,4 +1,5 @@
 # list Partitioning allows the partitioning of list of integers based on a partition size
+#Required : java 8
 This project can be used a third library in other projects 
 once this project jar was add into your project 
 you can call the static method inside PartitionManager :
